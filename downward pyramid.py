@@ -8,4 +8,5 @@ digital = int(input('ENTER THE NUMBER : '))
 for triangle in range(digital, 0, -1):
     for r in range(1, triangle+1):
         print('* ', end='')
+    #this is where it display the downward asterisk    
     print()
